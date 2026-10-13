@@ -1,0 +1,26 @@
+﻿[260818 03:48:53.447 INF]    [ 8408]    [                                            LogManager::init@  181]    -------------------------------------------------------------------------------------------------------------
+[260818 03:48:53.449 INF]    [ 8408]    [                                            LogManager::init@  182]    Log file path : 
+[260818 03:48:53.449 INF]    [ 8408]    [                                            LogManager::init@  183]    Log level     : 4
+[260818 03:48:53.449 INF]    [ 8408]    [                                            LogManager::init@  184]    OS            : Windows 11.0.26200, 64 bits
+[260818 03:48:53.449 INF]    [ 8408]    [                                            LogManager::init@  185]    CPU           : 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz, 8 Procs
+[260818 03:48:53.449 INF]    [ 8408]    [                                            LogManager::init@  186]    Memory        : 16082 MB
+[260818 03:48:53.450 INF]    [ 8408]    [                                            LogManager::init@  187]    Screen        : Screen 1024x768 96DPI
+[260818 03:48:53.450 INF]    [ 8408]    [                                            LogManager::init@  188]    GPU           : Intel(R) Iris(R) Xe Graphics, 2047 MB (Driver: 32.0.101.7085)
+[260818 03:48:53.451 INF]    [ 8408]    [                                            LogManager::init@  190]    Multi Monitor : 1
+[260818 03:48:53.451 INF]    [ 8408]    [                                            LogManager::init@  191]    HDR           : N/A (Service)
+[260818 03:48:53.451 INF]    [ 8408]    [                                            LogManager::init@  192]    Public IP     : UnKnown
+[260818 03:48:53.484 INF]    [ 8408]    [                                                            @  166]    Bridge logging initialized
+[260818 03:48:53.484 INF]    [ 8408]    [                                                            @  152]    Exit
+[260818 03:48:53.485 INF]    [ 8408]    [                                                            @  314]    Install status callback registered successfully
+[260818 03:48:53.485 INF]    [ 8408]    [                                                            @  322]    System info callback registered successfully
+[260818 03:48:53.488 INF]    [ 8408]    [                                  CprConnector::CprConnector@  198]    Using SSL backend: OpenSSL/1.1.1j
+[260818 03:48:53.490 INF]    [ 8408]    [                            StoveAPIClient::setTransactionId@  471]    New transaction Id is generated.
+[260818 03:48:53.490 INF]    [ 8408]    [                            StoveAPIClient::setTransactionId@  483]    Transaction id : 0a25e9d5-9602-4365-8131-54020c7ad1fe
+[260818 03:48:53.490 INF]    [ 8408]    [               APICallerDetail::_getCallerDetailFromRegistry@  166]    Attempting to read CallerDetail from active user registry...
+[260818 03:48:53.490 INF]    [ 8408]    [               APICallerDetail::_getCallerDetailFromRegistry@  172]    Active console session ID: 1
+[260818 03:48:53.597 ERR]    [ 8408]    [               APICallerDetail::_getCallerDetailFromRegistry@  242]    WTSQueryUserToken failed. Error: 1008
+[260818 03:48:53.597 INF]    [ 8408]    [               APICallerDetail::_getCallerDetailFromRegistry@  250]    Failed to read CallerDetail from active user registry, fallback to normal HKCU.
+[260818 03:48:53.598 INF]    [ 8408]    [               APICallerDetail::_getCallerDetailFromRegistry@  264]    Loaded CallerDetail from registry: path:HKEY_CURRENT_USER\SOFTWARE\SGUP, callerDetail:c4ffc51d658d97ab42c7d7b9a8c077493348bc5d
+[260818 03:48:53.598 INF]    [ 8408]    [                                      APICallerDetail::_init@   31]    CallerDetail loaded from registry.
+[260818 03:48:53.598 INF]    [ 8408]    [                                                            @  354]    API server started at http://127.0.0.1:55960
+[260818 03:48:53.598 INF]    [ 8408]    [                                                            @  355]    Available endpoints: /v1/launcher/install-status, /v1/launcher/system-information

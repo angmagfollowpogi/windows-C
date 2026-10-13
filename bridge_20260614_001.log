@@ -1,0 +1,24 @@
+﻿[260614 15:31:29.494 INF]    [ 3748]    [                                            LogManager::init@  181]    -------------------------------------------------------------------------------------------------------------
+[260614 15:31:29.495 INF]    [ 3748]    [                                            LogManager::init@  182]    Log file path : 
+[260614 15:31:29.495 INF]    [ 3748]    [                                            LogManager::init@  183]    Log level     : 4
+[260614 15:31:29.495 INF]    [ 3748]    [                                            LogManager::init@  184]    OS            : Windows 11.0.26200, 64 bits
+[260614 15:31:29.495 INF]    [ 3748]    [                                            LogManager::init@  185]    CPU           : 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz, 8 Procs
+[260614 15:31:29.495 INF]    [ 3748]    [                                            LogManager::init@  186]    Memory        : 16082 MB
+[260614 15:31:29.495 INF]    [ 3748]    [                                            LogManager::init@  187]    Screen        : Screen 1024x768 96DPI
+[260614 15:31:29.495 INF]    [ 3748]    [                                            LogManager::init@  188]    GPU           : Intel(R) Iris(R) Xe Graphics, 2047 MB (Driver: 32.0.101.7085)
+[260614 15:31:29.496 INF]    [ 3748]    [                                            LogManager::init@  190]    Multi Monitor : 1
+[260614 15:31:29.496 INF]    [ 3748]    [                                            LogManager::init@  191]    HDR           : N/A (Service)
+[260614 15:31:29.496 INF]    [ 3748]    [                                            LogManager::init@  192]    Public IP     : 49.145.162.106
+[260614 15:31:30.218 INF]    [ 3748]    [                                                            @  166]    Bridge logging initialized
+[260614 15:31:30.218 INF]    [ 3748]    [                                                            @  152]    Exit
+[260614 15:31:30.219 INF]    [ 3748]    [                                                            @  314]    Install status callback registered successfully
+[260614 15:31:30.219 INF]    [ 3748]    [                                                            @  322]    System info callback registered successfully
+[260614 15:31:30.219 INF]    [ 3748]    [                                  CprConnector::CprConnector@  198]    Using SSL backend: OpenSSL/1.1.1j
+[260614 15:31:30.219 INF]    [ 3748]    [                            StoveAPIClient::setTransactionId@  471]    New transaction Id is generated.
+[260614 15:31:30.220 INF]    [ 3748]    [                            StoveAPIClient::setTransactionId@  483]    Transaction id : 297f2d54-4f36-49d6-b375-066d9525d30e
+[260614 15:31:30.220 INF]    [ 3748]    [               APICallerDetail::_getCallerDetailFromRegistry@  166]    Attempting to read CallerDetail from active user registry...
+[260614 15:31:30.220 INF]    [ 3748]    [               APICallerDetail::_getCallerDetailFromRegistry@  172]    Active console session ID: 5
+[260614 15:31:30.221 INF]    [ 3748]    [               APICallerDetail::_getCallerDetailFromRegistry@  203]    Loaded CallerDetail from active user registry: path:HKEY_CURRENT_USER\SOFTWARE\SGUP, callerDetail:a9d76871da050a0c4f1a5aaa0d3c645026573897
+[260614 15:31:30.221 INF]    [ 3748]    [                                      APICallerDetail::_init@   31]    CallerDetail loaded from registry.
+[260614 15:31:30.221 INF]    [ 3748]    [                                                            @  354]    API server started at http://127.0.0.1:55960
+[260614 15:31:30.221 INF]    [ 3748]    [                                                            @  355]    Available endpoints: /v1/launcher/install-status, /v1/launcher/system-information
